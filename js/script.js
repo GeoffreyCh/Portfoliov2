@@ -12,6 +12,8 @@ let project = document.getElementById('project');
 let about = document.getElementById('about');
 let contact = document.getElementById('contact');
 
+let bg = document.querySelector('.test');
+
 let pages = [home, project, about, contact];
 
 let opacity = 0;
@@ -31,6 +33,7 @@ linkHome.addEventListener('click', () => {
         };
     });
     home.style.display = 'block';
+    bg.textContent = 'ACCUEILACCUEILACCUEIL';
 });
 
 linkProject.addEventListener('click', () => {
@@ -40,6 +43,7 @@ linkProject.addEventListener('click', () => {
         };
     });
     project.style.display = 'block';
+    bg.textContent = 'PROJETSPROJETSPROJETS';
 });
 
 linkAbout.addEventListener('click', () => {
@@ -49,6 +53,7 @@ linkAbout.addEventListener('click', () => {
         };
     });
     about.style.display = 'block';
+    bg.textContent = 'ÀPROPOSÀPROPOSÀPROPOS';
 });
 
 linkContact.addEventListener('click', () => {
@@ -58,6 +63,7 @@ linkContact.addEventListener('click', () => {
         };
     });
     contact.style.display = 'block';
+    bg.textContent = 'CONTACTCONTACTCONTACT';
 });
 
 
