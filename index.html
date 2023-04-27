@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="scss/styleClair.css" id="fileCss">
+</head>
+<body>
+    <div class="body">
+        <header>
+            <div class="name">
+                <p>Geoffrey CHOISEL</p>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li id="linkHome">ACCUEIL</li>
+                    <li id="linkProject">PROJETS</li>
+                    <li id="linkAbout">A PROPOS</li>
+                    <li id="linkContact">CONTACT</li>
+                </ul>     
+            </div>
+        </header>
+        <main>
+            <section class="home" id="home" style="display: block;">
+               <p>Développeur <br> Web</p>
+            </section>
+            <section class="project" id="project" style="display: none;">
+                <div class="projectList">
+                    <a href="https://www.asperience.fr/" target="_blank">
+                        <div class="projectInfo">Site officiel / 2022 / Wordpress</div>
+                        <div class="projectTitle">Asperience.fr</div>
+                    </a>
+                    <a href="">
+                        <div class="projectInfo">Projet d'étude / 2022</div>
+                        <div class="projectTitle">AsperienceGives</div>
+                    </a>
+                    <a href="">
+                        <div class="projectInfo">Projet perso / 2022 / Laravel</div>
+                        <div class="projectTitle">Spotify</div>
+                    </a>
+                    <a href="">
+                        <div class="projectInfo">Projet d'étude / 2022 / JavaScript</div>
+                        <div class="projectTitle">Gestion de budget</div>
+                    </a>
+                    <a href="">
+                        <div class="projectInfo">Projet d'étude / 2022 / HTML-CSS</div>
+                        <div class="projectTitle">Assurance Maladie</div>
+                    </a>
+                    <a href="">
+                        <div class="projectInfo">Projet perso / 2022 / JavaScript</div>
+                        <div class="projectTitle">Snake</div>
+                    </a>
+                </div>
+            </section>
+            <section class="about" id="about" style="display: none;">
+                <div class="aboutText">
+                    <p>
+                        Bonjour et bienvenue sur mon portfolio ! Je suis un développeur web junior passionné par la création de sites web modernes et fonctionnels. Mon objectif est de devenir un développeur web expérimenté en apprenant constamment de nouvelles technologies et en travaillant sur des projets passionnants.
+                    </p>
+                    <p>
+                        Sur ce portfolio, vous trouverez une sélection de mes projets les plus récents. J'espère que vous apprécierez mon travail et que vous verrez le potentiel que je peux apporter à votre projet web.
+                    </p>
+                    <p>
+                        Je suis à la recherche d'opportunités pour travailler avec des développeurs web expérimentés et apprendre de nouvelles compétences. N'hésitez pas à me contacter si vous avez des projets intéressants ou si vous souhaitez discuter de collaborations potentielles.
+                    </p>
+                    <p>
+                        Merci de votre visite et j'espère avoir l'opportunité de travailler avec vous bientôt !
+                    </p>
+                </div>
+                <div class="aboutLanguage">
+                    <div class="slide">
+                        <ul class="slideContent">
+                          <li><img src="img/html-5.png" alt=""></li>
+                          <li><img src="img/css-3.png" alt=""></li>
+                          <li><img src="img/js.png" alt=""></li>
+                          <li><img src="img/php.png" alt=""></li>
+                          <li><img src="img/scss.png" alt=""></li>
+                          <li><img src="img/wordpress.png" alt=""></li>
+                          <li><img src="img/bootstrap.png" alt=""></li>
+                          <li><img src="img/laravel.png" alt=""></li>
+                          <li><img src="img/react.png" alt=""></li>
+                          <li><img src="img/mysql.png" alt=""></li>
+                          <li><img src="img/git.png" alt=""></li>
+                        </ul>
+                        <ul class="slideContent2">
+                            <li><img src="img/html-5.png" alt=""></li>
+                            <li><img src="img/css-3.png" alt=""></li>
+                            <li><img src="img/js.png" alt=""></li>
+                            <li><img src="img/php.png" alt=""></li>
+                            <li><img src="img/scss.png" alt=""></li>
+                            <li><img src="img/wordpress.png" alt=""></li>
+                            <li><img src="img/bootstrap.png" alt=""></li>
+                            <li><img src="img/laravel.png" alt=""></li>
+                            <li><img src="img/react.png" alt=""></li>
+                            <li><img src="img/mysql.png" alt=""></li>
+                            <li><img src="img/git.png" alt=""></li>
+                          </ul>
+                      </div>
+                </div>
+            </section>
+            <section class="contact" id="contact" style="display: none;">
+                <div class="textContact">
+                    <p>Email : gc.geoffrey.c@gmail.com</p>
+                    <p>Tel : 06.14.97.41.35</p>
+                    <div class="rs">
+                        <a href="#" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="https://www.linkedin.com/in/geoffrey-choisel-3aa506250/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="https://github.com/GeoffreyCh" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div class="bg"></div> 
+    <div class="theme">
+        <div class="themeSombre">
+            <label for="btnSombre"><p>Sombre</p></label>
+            <button type="button" name="btnSombre" id="btnSombre"></button>
+        </div>
+        <div class="themeClair">
+            <label for="btnClair"><p>Clair</p></label>
+            <button type="button" name="btnClair" id="btnClair"></button> 
+        </div>
+    </div>
+    <script src="js/script.js"></script> 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>

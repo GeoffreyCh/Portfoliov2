@@ -1,0 +1,379 @@
+$white: #fff;
+$black: #080808;
+$nuageNoir: url('../img/nuageNoir.jpg');
+$nuageBlanc: url('../img/nuageBlanc.jpg');
+
+@font-face {
+	font-family: 'Caviar';
+	src: url('/fonts/caviar_dreams/CaviarDreams.ttf');
+}
+
+@font-face {
+	font-family: 'CaviarBold';
+	src: url('/fonts/caviar_dreams/CaviarDreams_Bold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: $nuageNoir;
+    background-size: cover;
+
+    .bg {
+        position: absolute;
+        z-index: -1;
+        height: 100vh;
+        width: 100vw;
+        background-image: $nuageNoir;
+        background-size: cover;
+        filter: blur(4px);
+    }
+}
+
+.body {     
+    overflow-y: hidden;
+    border: 1px solid $white;
+    height: 93vh;
+    width: 96vw;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 13vh;
+
+    .name {
+        margin-left: 5em;
+
+        p {
+            font-family: 'Caviar';
+            font-size: 2.5em;
+            color: $white;
+        }
+    }
+
+    .menu ul {
+        display: flex;
+        justify-content: space-around;
+        gap: 2.5em;
+        margin-right: 6em;
+
+        li {
+            cursor: pointer;
+            list-style-type: none;
+            font-size: 1.5em;
+            text-decoration: none;
+            font-family: 'Caviar';
+            color: $white;
+
+            &:hover {
+                font-weight: bolder;
+            }
+        }
+    }
+}
+
+.home {
+    height: 80vh;
+
+    p {
+        position: absolute;
+        right: 15vw;
+        bottom: 20vh;
+        font-family: 'Caviar';
+        font-weight: bolder;
+        font-size: 110px;
+        color: $white;
+        text-align: right;
+        border-right: 3px solid $white;
+        padding-right: 30px;
+    }
+
+}
+
+.project {
+    height: 80vh;
+
+    .projectList {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 70vh;
+        
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            gap: 15px;
+            text-decoration: none;
+            font-family: 'Caviar';
+            color: $white;
+
+            .projectInfo {
+                font-size: 20px;
+            }
+
+            .projectTitle {
+                font-size: 60px;
+                font-weight: bold;
+            }
+
+            &:hover {
+                color: darken($white, 30%);
+            }
+
+        }
+
+    }
+}
+
+.about {
+    height: 80vh;
+
+    .aboutText {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 50vh;
+        width: 50vw;
+        margin-left: 25vw;
+        margin-top: 3vh;
+        border-top: 1px solid $white;
+        padding: 25px 0 0 0;
+
+        p {
+            text-align: center;
+            font-family: 'Caviar';
+            font-size: 1.6em;
+            color: $white;
+        }
+    }
+}
+
+.aboutLanguage {
+
+    .slide {
+        width: 580px;
+        margin-left: 35vw;
+        overflow: hidden;
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+        border-left: 2px solid $white;
+        border-right: 2px solid $white;
+        padding: 5px 0 5px 0;
+        
+
+        .slideContent {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            list-style: none;
+            width: 580px;
+            animation: slideEffect 20s linear infinite;
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        .slideContent2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            list-style: none;
+            width: 580px;
+            animation: slideEffect2 20s linear infinite;
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }   
+}
+
+.contact {
+    height: 80vh;
+
+    .textContact {
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-family: 'Caviar';
+            font-weight: bold;
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: $white;
+        }
+
+        .rs {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-top: 20px;
+
+            a {
+                text-decoration: none;
+                
+
+                ion-icon {
+                    width: 50px;
+                    height: 50px;
+                    color: $white;
+
+                    &:hover {
+                        color: darken($white, 30%);
+                    }
+                }
+            }
+
+            &:after {
+                content: '';
+                width: 100px;
+                height: 2px;
+                background-color: $white;
+                position: absolute;
+                top: -20px;
+            }
+        }
+    }
+}
+
+
+//--------------THEME SOMBRE - CLAIR---------------//
+
+
+.theme {
+    position: absolute;
+    z-index: 2;
+    bottom: 5vh;
+    left: 3vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .themeClair {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .themeSombre {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    #btnSombre {
+        background-color: $black;
+        border: 1px solid $white;
+    }
+
+    button {
+        width: 12px;
+        height: 12px;
+        border: 1px solid $black;
+        cursor: pointer;
+    }
+
+    label {
+        cursor: pointer;
+        font-family: 'Caviar';
+        font-weight: bold;
+        color: $white;
+        writing-mode: vertical-rl; 
+        transform: rotate(180deg);
+    }
+}
+
+.fadeOn {
+    animation: fadeOn 0.5s ease-out forwards;
+    // display: none;
+}
+
+.fadeOff {
+    animation: fadeOff 0.5s ease-out 0.5 forwards;
+    // display: block;
+}
+
+@keyframes fadeOn {
+    0% {
+        display: block;
+        opacity: 1;
+    }
+
+    99% {
+        display: none;
+        opacity: 0;
+    }
+
+    100% {
+        display: none !important;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOff {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+
+@keyframes slideEffect {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-1320px);
+    }
+}
+
+@keyframes slideEffect2 {
+    0% {
+        transform: translateX(720px);
+    }
+
+    100% {
+        transform: translateX(-600px);
+    }
+}
