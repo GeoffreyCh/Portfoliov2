@@ -370,7 +370,7 @@ header {
 
 
 
-.test {
+.textBg {
     position: absolute;
     z-index: -1;
     height: 100vh;
@@ -381,4 +381,17 @@ header {
     font-size: 20vw;
     writing-mode: vertical-rl; 
     transform: rotate(180deg);
+}
+
+.textBg2 {
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+    left: 26vw;
+    top: -10vh;
+    color: lighten($black, 2%);
+    font-family: fantasy;
+    font-size: 8vw;
+    writing-mode: vertical-lr; 
+    // transform: rotate(180deg);
 }

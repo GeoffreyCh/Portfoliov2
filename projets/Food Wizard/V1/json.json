@@ -1,0 +1,9 @@
+let produit = {
+    "aliment": [
+        {
+            "nom":"+",
+            "categorie":"Plus",
+            "couleur": "noir",
+        },
+    ]
+}

@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* ---------------------------- HEADER ----------------------------- */
+
+.header{
+    margin-bottom: 80px;
+}
+
+.haut {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgLogo {
+    width: 300px;
+}
+
+.base {
+    display: flex;
+    margin-right: 70px;
+}
+
+.text {
+    height: 40px;
+    width: 300px;
+    border: 2px rgb(12, 62, 154) solid;
+    background-color: rgb(212, 212, 212);
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+}
+
+.recherche2 {
+    border: solid rgb(12, 62, 154);
+    border-width: 2px 2px 2px 0px;
+    background-color: rgb(12, 62, 154);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 40px;
+    padding: 7px;
+}
+
+.profil {
+    width: 80px;
+    padding-right: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(12, 62, 154);
+    padding: 1% 0;
+}
+
+.lienNav {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 1% 1%;
+}
+/* ------------------------------------------------- */
+.ContactTitre{
+    margin-bottom: 20px;
+}
+
+.imageContact{
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.form-control{
+    border: 1px solid rgb(26, 12, 154);
+    background-color: rgb(212, 212, 212);
+}
+
+.container{
+    margin: 40px auto;
+}
+
+.form-control::placeholder{
+    color: black;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(12, 62, 154);
+    text-align: center;
+    align-items: center;
+    padding: 30px 0 10px 0;
+}
+
+.logoRes {
+    width: 400px;
+    margin: auto;
+    border-top: 1px solid white;
+}
+
+.logoFooter {
+    width: 50px;
+    margin: 20px 10px;
+}
+
+.lienFooter {
+    color: white;
+}
+
+.lienFooter a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.ligneFooter{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 5px;
+    color: white;
+}
+
+.blabla {
+    color: rgb(139, 131, 131);
+}
+
+
+@media screen and (max-width: 450px)  {
+    .imgLogo{
+        display: none;
+    }
+
+    .text{
+        width: 100px;
+    }
+
+    .imageContact{
+        display: none;
+    }
+
+    .profil{
+        margin-right: 20px;
+    }
+
+    .lienNav{
+        font-size: 15px;
+        margin-right: 25px;
+    }
+    
+    .logoRes{
+        width: 100%;
+    }
+
+    .form-control{
+        width: 350px;
+    }
+    
+    .info{
+        margin-right: 50px;
+        width: 500px;
+    }
+
+    .ContactTitre{
+        margin-right: 50px;
+    }
+}

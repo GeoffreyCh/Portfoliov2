@@ -1,0 +1,106 @@
+let actu = {
+    "card": [
+        {
+            "categorie": "cov",
+            "img": "img/coronavirus.jpg",
+            "titre": "Nouveau variant découvert en Italie !",
+            "description": "Ce Mercredi 23 Mars, en Italie, un nouveau variant du Corona Virus a été découvert sur des touristes anglais, les scientifiques ont auusi découvert...",
+        },
+        {
+            "categorie": "cov",
+            "img": "img/masque.webp",
+            "titre": "Le port du masque n'est plus obligatoire ?",
+            "description": "Depuis le 14 Février en France le port du masque n'est plus obligatoire en intérieur, cette décision à été prise après que...",
+        },
+        {
+            "categorie": "mal",
+            "img": "img/peste.jpg",
+            "titre": "Ces maladies qui ont ravagées le monde",
+            "description": "Découvrer toutes les plus grandes pestes et maladies de l'Histoire qui ont décimés l'humanité...",
+        },
+        {
+            "categorie": "med",
+            "img": "img/medecin.webp",
+            "titre": "Nouvelle découverte dans le monde de la médecine ?",
+            "description": "Le Docteur Phillis Wallas, à découvert quelque chose d\'exceptionnel ce Mardi 22 Mars aux Etat-Unis. Après des années de recherche, le Docteur a enfin trouvé...",
+        },
+        {
+            "categorie": "med",
+            "img": "img/medicament.jpg",
+            "titre": "Les problèmes cardiaques",
+            "description": "Les médicaments prescrits dans le traitement de l’insuffisance cardiaque chronique (ICC) sont de plusieurs types...",
+        },
+        {
+            "categorie": "fam",
+            "img": "img/famille2.jpg",
+            "titre": "Vie quotidienne et enfant ",
+            "description": " Le calendrier des 20 examens de suivi médical de l'enfant et de l'adolescent (PDF) a évolué depuis le 1er mars 2019, afin de renforcer le suivi de la santé chez les jeunes...",
+        },
+        {
+            "categorie": "cov",
+            "img": "img/covidimage.jpg",
+            "titre": "Symptômes du COVID19",
+            "description": "Les principaux symptômes, combinés ou isolés, de l'infection par le Covid-19 sont principalement...",
+        },
+        {
+            "categorie": "mal",
+            "img": "img/covidimage2.jpg",
+            "titre": "Découvrir Resanté",
+            "description": "Recosanté est un service public qui aide à mieux connaître son environnement et à agir en conséquence pour mieux protéger sa santé...",
+        },
+        {
+            "categorie": "fam",
+            "img": "img/famille3.jpg",
+            "titre": "Grossesse et bonne santé",
+            "description": "Une fois votre grossesse confirmée, la première consultation est suivie de consultations mensuelles. Un entretien prénatal précoce permet de faire le point sur vos besoins d’accompagnement au cours de votre grossesse...",
+        },
+        {
+            "categorie": "mal",
+            "img": "img/maladie_professionnelle.jpg",
+            "titre": "Maladies professionnelles",
+            "description": "Une maladie professionnelle est la conséquence de l’exposition plus ou moins prolongée à un risque qui existe lors de l’exercice habituel de la profession...",
+        },
+        {
+            "categorie": "fam",
+            "img": "img/bebe.png",
+            "titre": "Les maladies infantiles",
+            "description": "Votre enfant vient d’intégrer une structure collective ? Il est plus enclin à « attraper » une des maladies infantiles les plus répandues (varicelle, oreillons…)...",
+        },
+        {
+            "categorie": "fam",
+            "img": "img/famille.jpg",
+            "titre": "Les prestations familiales",
+            "description": "Les allocations familiales sont versées sans condition d'activité à partir du 2e enfant à charge résidant en France. Leur montant est modulé en fonction des ressources du ménage ...",
+        },
+        {
+            "categorie": "med",
+            "img": "img/medicament3.jpg",
+            "titre": "Allergie aux pollens",
+            "description": "En cas d’allergie au pollen de graminées ou à d’autres pollens, vous pouvez prendre des médicaments antihistaminiques avec ou sans ordonnance...",
+        },
+        {
+            "categorie": "cov",
+            "img": "img/alertemaladie.jpg",
+            "titre": "Prendre soin de sa santé pendant la crise sanitaire",
+            "description": "Pendant l’épidémie de Covid-19, il est indispensable de rester très attentif à sa santé et à celles de ses enfants et de se faire soigner sans attendre...",
+        },
+        {
+            "categorie": "med",
+            "img": "img/medicament2.jpg",
+            "titre": "Médicaments antidouleurs ",
+            "description": " Dès 2019, l'Organisation de coopération et de développement économiques (OCDE) appelle les gouvernements à prendre des mesures urgentes...",
+        },
+        {
+            "categorie": "cov",
+            "img": "img/depistage.jpg",
+            "titre": "Test positif au COVID 19 ?",
+            "description": "Que faire lorsque le test de dépistage au Covid-19 est positif ? Pour se protéger et protéger ses proches, il est important de chercher ses cas de contact, de respecter les mesure d'isolement ...",
+        },
+        {
+            "categorie": "cov",
+            "img": "img/vaccinsenior.jpg",
+            "titre": "La quatrième dose ouverte au 60-79 ans",
+            "description": " La quatrième dose de vaccination anti-Covid-19 va être ouverte à un public plus large.Face à la vague actuelle d’Omicron et à l’affaiblissement progressif de la protection assurée...",
+        },
+    ]
+}

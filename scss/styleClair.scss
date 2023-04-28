@@ -368,10 +368,10 @@ header {
 
 
 
-.test {
+.textBg {
     position: absolute;
     z-index: -1;
-    height: 100vh;
+    // height: 100vh;
     left: 6vw;
     bottom: -10vh;
     color: darken($white, 2%);
@@ -379,4 +379,17 @@ header {
     font-size: 20vw;
     writing-mode: vertical-rl; 
     transform: rotate(180deg);
+}
+
+.textBg2 {
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+    left: 26vw;
+    top: -10vh;
+    color: darken($white, 2%);
+    font-family: fantasy;
+    font-size: 8vw;
+    writing-mode: vertical-lr; 
+    // transform: rotate(180deg);
 }

@@ -302,10 +302,9 @@ header .menu ul li:hover {
     transform: translateX(-600px);
   }
 }
-.test {
+.textBg {
   position: absolute;
   z-index: -1;
-  height: 100vh;
   left: 6vw;
   bottom: -10vh;
   color: #d6d4ce;
@@ -313,4 +312,16 @@ header .menu ul li:hover {
   font-size: 20vw;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
+}
+
+.textBg2 {
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+  left: 26vw;
+  top: -10vh;
+  color: #d6d4ce;
+  font-family: fantasy;
+  font-size: 8vw;
+  writing-mode: vertical-lr;
 }/*# sourceMappingURL=styleClair.css.map */

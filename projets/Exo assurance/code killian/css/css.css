@@ -1,0 +1,12 @@
+img{
+    width: 350px;
+    height: 300px;
+}
+
+body{
+    background: rgb(219, 219, 219);
+}
+
+.form-control{
+    border: 1px solid rgb(12, 62, 154);
+}

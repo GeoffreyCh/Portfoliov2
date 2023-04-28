@@ -1,0 +1,177 @@
+.image{
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: flex !important;
+}
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.haut {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgLogo {
+    width: 300px;
+}
+
+.base {
+    display: flex;
+    margin-right: 70px;
+}
+
+.text {
+    height: 40px;
+    width: 300px;
+    border: 2px rgb(12, 62, 154) solid;
+    background-color: rgb(12, 62, 154);
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+}
+
+.recherche2 {
+    border: solid rgb(12, 62, 154);
+    border-width: 2px 2px 2px 0px;
+    background-color: rgb(12, 62, 154);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 40px;
+    padding: 7px;
+}
+
+.profil {
+    width: 80px;
+    padding-right: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(12, 62, 154);
+    padding: 1% 0;
+}
+
+.lienNav {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 1% 1%;
+}
+
+.lienNav:hover {
+    background-color: white;
+    color: rgb(12, 62, 154);
+    border-radius: 5px;
+}
+
+.bandeau {
+    display: flex;
+    max-height: 400px;
+    background-color: rgb(12, 62, 154);
+    padding: 2% 0;
+    gap: 10%;
+}
+
+.attente {
+    padding-left: 50px;
+    max-height: 450px;
+}
+
+.texte-bandeau {
+    display: block;
+    color: white;
+    font-size: 20px;
+    flex-wrap: nowrap;
+}
+
+.texte-bandeau h1 {
+    font-size: 40px;
+}
+
+.btnBandeau {
+    border: none;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: 2px white solid;
+    background-color: rgb(12, 62, 154);
+    color: white;
+    font-weight: bold;
+}
+
+.btnBandeau:hover {
+    background-color: white;
+    color: rgb(12, 62, 154);
+    font-weight: bold;
+}
+
+.fleche {
+    width: 50px;
+    height: 50px;
+    margin: 130px 40px 0 0;
+}
+
+.bg {
+    background-color: rgb(12, 62, 154);
+}
+
+.btnArticle {
+    color: rgb(12, 62, 154);
+    float: right;
+    padding: 30px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(12, 62, 154);
+    text-align: center;
+    align-items: center;
+    padding: 30px 0 10px 0;
+}
+
+.logoRes {
+    width: 400px;
+    margin: auto;
+    border-top: 1px solid white;
+}
+
+.logoFooter {
+    width: 50px;
+    margin: 20px 10px;
+}
+
+.lienFooter {
+    color: white;
+}
+
+.lienFooter a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.ligneFooter{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 5px;
+    color: white;
+}
+
+.blabla {
+    color: rgb(139, 131, 131);
+}
+
+#Titre{
+    display: flex;
+    justify-content: center;
+}

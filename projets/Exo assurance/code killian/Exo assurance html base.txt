@@ -1,0 +1,237 @@
+<div class="container">
+        <div class="row">
+            <div class="col-sm-4 cov" name="cov" id="cov">
+                <div class="card text-white bg-primary">
+                    <img src="img/coronavirus.jpg" class="card-img-top" alt="virus" style="height: 280px;">
+                    <div class="card-body bg">
+                        <h4 class="card-title">Nouveau variant découvert en Italie !</h4>
+                      <p class="card-text">Ce Mercredi 23 Mars, en Italie, un nouveau variant du Corona Virus a été découvert sur des touristes anglais, les scientifiques ont auusi découvert...</p>
+                      <a href="#" class="btn btn-light btnArticle">Voir plus</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4 cov" name="cov">
+                <div class="card text-white bg-primary">
+                    <img src="img/masque.webp" class="card-img-top" alt="masque" style="height: 280px;">
+                    <div class="card-body bg">
+                      <h4 class="card-title">Le port du masque n'est plus obligatoire ?</h4>  
+                      <p class="card-text">Depuis le 14 Février en France le port du masque n'est plus obligatoire en intérieur, cette décision à été prise après que...</p>
+                      <a href="#" class="btn btn-light btnArticle">Voir plus</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4 mal" name="mal" id="mal">
+                <div class="card text-white bg-primary">
+                    <img src="img/peste.jpg" class="card-img-top" alt="..." style="height: 280px;">
+                    <div class="card-body bg">
+                      <h4 class="card-title">Ces maladies qui ont ravagées le monde</h4>  
+                      <p class="card-text">Découvrer toutes les plus grandes pestes et maladies de l'Histoire qui ont décimés l'humanité...</p>
+                      <a href="#" class="btn btn-light btnArticle">Voir plus</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4 med" name="med" id="med">
+                <div class="card text-white bg-primary">
+                    <img src="img/medecin.webp" class="card-img-top" alt="medecin" style="height: 280px;">
+                    <div class="card-body bg">
+                        <h4 class="card-title">Nouvelle découverte dans le monde de la médecine ?</h4>
+                      <p class="card-text">Le Docteur Phillis Wallas, à découvert quelque chose d"exceptionnel ce Mardi 22 Mars aux Etat-Unis. Après des années de recherche, le Docteur a enfin trouvé...</p>
+                      <a href="#" class="btn btn-light btnArticle">Voir plus</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4 med" name="med">
+                <div class="card text-white bg-primary">
+                    <img src="img/medicament.jpg" class="card-img-top" alt="virus" style="height: 280px;">
+                    <div class="card-body bg">
+                        <h4 class="card-title">Les problèmes cardiaques</h4>
+                      <p class="card-text">Les médicaments prescrits dans le traitement de l’insuffisance cardiaque chronique (ICC) sont de plusieurs types...</p>
+                      <a href="#" class="btn btn-light btnArticle">Voir plus</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4 fam" name="fam" id="fam">
+                <div class="card text-white bg-primary">
+                    <img src="img/famille2.jpg" class="card-img-top" alt="masque" style="height: 280px;">
+                    <div class="card-body bg">
+                      <h4 class="card-title">Vie quotidienne et enfant </h4>
+                      <p class="card-text"> Le calendrier des 20 examens de suivi médical de l'enfant et de l'adolescent (PDF) a évolué depuis le 1er mars 2019, afin de renforcer le suivi de la santé chez les jeunes...</p> 
+                      <a href="#" class="btn btn-light btnArticle">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 cov" name="cov">
+                <div class="card text-white bg-primary">
+                    <img src="img/covidimage.jpg" class="card-img-top" alt="..." style="height: 280px;">
+                    <div class="card-body bg">
+                    <h4 class="card-title">Symptômes du COVID19</h4>
+                    <p class="card-text">Les principaux symptômes, combinés ou isolés, de l'infection par le Covid-19 sont principalement...</p>
+                    <a href="#" class="btn btn-light btnArticle">Voir plus</a>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-sm-4 mal" name="mal">
+                <div class="card text-white bg-primary">
+                    <img src="img/covidimage2.jpg" class="card-img-top" alt="..." style="height: 280px;">
+                    <div class="card-body bg">
+                    <h4 class="card-title">Découvrir Resanté</h4>
+                    <p class="card-text">Recosanté est un service public qui aide à mieux connaître son environnement et à agir en conséquence pour mieux protéger sa santé...</p>
+                    <a href="#" class="btn btn-light btnArticle">Voir plus</a>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-sm-4 fam" name="fam">
+                <div class="card text-white bg-primary">
+                    <img src="img/famille3.jpg" class="card-img-top" alt="virus" style="height: 280px;">
+                    <div class="card-body bg">
+                    <h4 class="card-title">Grossesse et bonne santé</h4>
+                     <p class="card-text">Une fois votre grossesse confirmée, la première consultation est suivie de consultations mensuelles. Un entretien prénatal précoce permet de faire le point sur vos besoins d’accompagnement au cours de votre grossesse...</p>
+                    <a href="#" class="btn btn-light btnArticle">Voir plus</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 mal" name="mal">
+                <div class="card text-white bg-primary">
+                    <img src="img/maladie_professionnelle.jpg" class="card-img-top" alt="..." style="height: 280px;">
+                    <div class="card-body bg">
+                    <h4 class="card-title">Maladies professionnelles</h4>
+                    <p class="card-text">Une maladie professionnelle est la conséquence de l’exposition plus ou moins prolongée à un risque qui existe lors de l’exercice habituel de la profession...</p>
+                    <a href="#" class="btn btn-light btnArticle">Voir plus</a>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-sm-4 fam" name="fam">
+                <div class="card text-white bg-primary">
+                    <img src="img/bebe.png" class="card-img-top" alt="..." style="height: 280px;">
+                    <div class="card-body bg">
+                    <h4 class="card-title">Les maladies infantiles</h4>
+                    <p class="card-text">Votre enfant vient d’intégrer une structure collective ? Il est plus enclin à « attraper » une des maladies infantiles les plus répandues (varicelle, oreillons…)...</p>
+                    <a href="#" class="btn btn-light btnArticle">Voir plus</a>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-sm-4 fam" name="fam">
+                <div class="card text-white bg-primary">
+                    <img src="img/famille.jpg" class="card-img-top" alt="virus" style="height: 280px;">
+                    <div class="card-body bg">
+                    <h4 class="card-title">Les prestations familiales</h4>
+                    <p class="card-text">Les allocations familiales sont versées sans condition d'activité à partir du 2e enfant à charge résidant en France. Leur montant est modulé en fonction des ressources du ménage ...</p>
+                    <a href="#" class="btn btn-light btnArticle">Voir plus</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4 med" name="med">
+                <div class="card text-white bg-primary">
+                    <img src="img/medicament3.jpg" class="card-img-top" alt="virus" style="height: 280px;">
+                    <div class="card-body bg">
+                        <h4 class="card-title">Allergie aux pollens</h4>
+                      <p class="card-text">En cas d’allergie au pollen de graminées ou à d’autres pollens, vous pouvez prendre des médicaments antihistaminiques avec ou sans ordonnance...</p>
+                      <a href="#" class="btn btn-light btnArticle">Voir plus</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4 cov" name="cov">
+                <div class="card text-white bg-primary">
+                  <img src="img/alertemaladie.jpg" class="card-img-top" alt="virus" style="height: 300px;">
+                  <div class="card-body bg">
+                      <h4 class="card-title">Prendre soin de sa santé pendant la crise sanitaire</h4>
+                    <p class="card-text">Pendant l’épidémie de Covid-19, il est indispensable de rester très attentif à sa santé et à celles de ses enfants et de se faire soigner sans attendre...</p>
+                    <a href="#" class="btn btn-light btnArticle">Voir plus</a>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm-4 med" name="med">
+                <div class="card text-white bg-primary">
+                    <img src="img/medicament2.jpg" class="card-img-top" alt="masque" style="height: 280px;">
+                    <div class="card-body bg">
+                      <h4 class="card-title">Médicaments antidouleurs </h4>
+                      <p class="card-text"> Dès 2019, l'Organisation de coopération et de développement économiques (OCDE) appelle les gouvernements à prendre des mesures urgentes...</p> 
+                      <a href="#" class="btn btn-light btnArticle">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 cov" name="cov">
+                <div class="card text-white bg-primary">
+                    <img src="img/depistage.jpg" class="card-img-top" alt="virus" style="height: 300px;">
+                    <div class="card-body bg">
+                        <h4 class="card-title">Test positif au COVID 19 ?</h4>
+                      <p class="card-text">Que faire lorsque le test de dépistage au Covid-19 est positif ? Pour se protéger et protéger ses proches, il est important
+                          de chercher ses cas de contact, de respecter les mesure d'isolement ...</p>
+                      <a href="#" class="btn btn-light btnArticle">Voir plus</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4 cov" name="cov">
+                <div class="card text-white bg-primary">
+                    <img src="img/vaccinsenior.jpg" class="card-img-top" alt="masque" style="height: 300px;">
+                    <div class="card-body bg">
+                      <h4 class="card-title">La quatrième dose ouverte au 60-79 ans</h4>
+                      <p class="card-text"> La quatrième dose de vaccination anti-Covid-19 va être ouverte à un public plus large.Face à la vague actuelle d’Omicron et à l’affaiblissement progressif de la protection assurée...</p> 
+                      <a href="#" class="btn btn-light btnArticle">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+JSJSJSJSJSJSJS
+
+
+
+const cov = document.getElementsByClassName('cov');
+const mal = document.getElementsByClassName('mal');
+const fam = document.getElementsByClassName('fam');
+const med = document.getElementsByClassName('med');
+
+const card = document.querySelectorAll(".col-sm-4");
+
+
+
+covid.addEventListener('click', function() {
+
+    console.log('test');
+
+    if(card.className != "cov"){
+        card.className = "delete";
+        console.log(card.className);
+    }
+
+    //mal.className = 'delete';
+    //fam.className = 'delete';
+    //med.className = 'delete';
+    
+    //mal.classList.add("delete");
+    //fam.classList.add("delete");
+    //med.classList.add("delete");
+    //cov.classList.remove("delete");
+
+    //mal.remove();
+    //fam.remove();
+    //med.remove();
+
+    //mal.setAttribute("class", "delete");
+});
+
+
+console.log(cov);
+
+
+
+/*
+function filtre(){
+console.log('test');
+
+    let cov = document.getElementsByClassName('cov');
+    let mal = document.getElementsByClassName('mal');
+    let fam = document.getElementsByClassName('fam');
+    let med = document.getElementsByClassName('med');
+
+    mal.classList.add("delete");
+    fam.classList.add("delete");
+    med.classList.add("delete");
+    cov.classList.remove("delete");
+}
+*/

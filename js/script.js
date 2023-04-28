@@ -12,7 +12,8 @@ let project = document.getElementById('project');
 let about = document.getElementById('about');
 let contact = document.getElementById('contact');
 
-let bg = document.querySelector('.test');
+let textBg = document.querySelector('.textBg');
+let textBg2 = document.querySelector('.textBg2');
 
 let pages = [home, project, about, contact];
 
@@ -33,7 +34,8 @@ linkHome.addEventListener('click', () => {
         };
     });
     home.style.display = 'block';
-    bg.textContent = 'ACCUEILACCUEILACCUEIL';
+    textBg.textContent = 'ACCUEILACCUEILACCUEIL';
+    textBg2.textContent = 'ACCUEILACCUEILACCUEILACCUEILACCUEILACCUEIL';
 });
 
 linkProject.addEventListener('click', () => {
@@ -43,7 +45,8 @@ linkProject.addEventListener('click', () => {
         };
     });
     project.style.display = 'block';
-    bg.textContent = 'PROJETSPROJETSPROJETS';
+    textBg.textContent = 'PROJETSPROJETSPROJETS';
+    textBg2.textContent = 'PROJETSPROJETSPROJETSPROJETSPROJETSPROJETS';
 });
 
 linkAbout.addEventListener('click', () => {
@@ -53,7 +56,8 @@ linkAbout.addEventListener('click', () => {
         };
     });
     about.style.display = 'block';
-    bg.textContent = 'ÀPROPOSÀPROPOSÀPROPOS';
+    textBg.textContent = 'ÀPROPOSÀPROPOSÀPROPOS';
+    textBg2.textContent = 'ÀPROPOSÀPROPOSÀPROPOSÀPROPOSÀPROPOSÀPROPOS';
 });
 
 linkContact.addEventListener('click', () => {
@@ -63,7 +67,8 @@ linkContact.addEventListener('click', () => {
         };
     });
     contact.style.display = 'block';
-    bg.textContent = 'CONTACTCONTACTCONTACT';
+    textBg.textContent = 'CONTACTCONTACTCONTACT';
+    textBg2.textContent = 'CONTACTCONTACTCONTACTCONTACTCONTACTCONTACT';
 });
 
 

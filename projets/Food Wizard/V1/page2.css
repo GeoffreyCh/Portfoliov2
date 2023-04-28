@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+    border-bottom: 4px green solid;
+}
+
+.menuBurger {
+    width: 35px;
+    height: 35px;
+    margin-left: 30px;
+}
+
+.titre {
+    color: whitesmoke;
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+.gr {
+    color: green;
+    font-weight: 600;
+}
+
+.logo {
+    width: 80px;
+    height: 90px;
+    float: right;
+    margin: 0 20px 10px 0;
+}
+
+
+
+
+
+.part1 {
+    height: 650px;
+}
+
+.box1 {
+    width: 90%;
+    height: 90%;
+    margin: 30px auto;
+    background-color: black;
+    border: 5px solid green;  
+    color: whitesmoke;
+    border-radius: 40px 0px 40px 0px;
+}
+
+
+
+
+
+.part2 {
+    height: 650px;
+}
+
+.box2 {
+    width: 90%;
+    height: 90%;
+    margin: 30px auto;
+    background-color: black;
+    border: 5px solid green;
+    color: whitesmoke;
+    border-radius: 40px 0px 40px 0px;
+}
+
+
+
+
+.part3 {
+    height: 650px;
+}
+
+.box3 {
+    width: 90%;
+    height: 90%;
+    margin: 30px auto;
+    background-color: black;
+    border: 5px solid green;
+    color: whitesmoke;
+    border-radius: 40px 0px 40px 0px;
+}
+
+.textBox { 
+    writing-mode: vertical-lr;
+    text-orientation: upright; 
+    font-size: 22px;
+    margin-left: 28%;
+    margin-top: 70px;
+    cursor: default;
+}
+
+
+
+
+.check {
+    position: relative;
+    left: -40px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+.btnBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.btnBox button {
+    height: 50px;
+    width: 230px;
+    padding: 0px 40px;
+    background-color: green;
+    border: 3px solid green;
+    border-radius: 25px;
+}
+
+.btnBox button:hover {
+    transform: scale(1.030);
+}
+
+.btnBox a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+
+
+footer {
+    text-align: center;
+    height: 100px;
+    background-color: black;
+    border-top: 4px solid green;
+    color: whitesmoke;
+}
+
+.txtFooter {
+    margin-top: 20px;
+}
