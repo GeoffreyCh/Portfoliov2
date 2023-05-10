@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aliment.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" id="cf">
+        <div class="aliment" id="aliment">
+            <div class="titreIngredient">
+                <p>ingrédients</p>
+                <div class="recherche">
+                    <input type="text" class="rch" id="rch">
+                    <input type="image" src="img/chercher.png" alt="" class="imgRch" id="search">
+                    <input type="image" src="img/rafraichir.png" alt="" class="refresh" id="refresh">
+                </div>
+            </div>
+            <div class="aliments" id="aliments">
+
+            </div>
+        </div>
+        <div class="scrollbar"></div>
+        <div class="clickScrollbar"></div>
+        <div class="categorie" id="categorie">
+            <div class="head">
+                <p>FOOD WIZARD</p>
+                <img src="img/logoAliment.jpg" alt="logo" class="logo">
+                <div class="newAliment delete" id="newAliment">
+                    <input type="text" class="newNom" id="newNom" placeholder="Ingrédient">
+                    <input type="text" class="newCat" id="newCat" placeholder="Catégorie">
+                    <input type="submit" class="btnNewAliment" id="btnNewAliment">
+                </div>
+            </div>
+            <div class="recette" id="recette">
+                
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="json.json"></script>
+    <script src="recette.json"></script>
+    <script src="index.js"></script>
+</body>
+</html>

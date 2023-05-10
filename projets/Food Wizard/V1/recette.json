@@ -1,0 +1,139 @@
+let recepe = {
+    "recepes": [
+        {
+            "nom":"Spaghetti Bolognaise",
+            "tpsPreparation":"20 min",
+            "ingredient":[
+                "Spaghetti",
+                "Boeuf haché",
+                "Sauce tomate",
+                "Oignon",
+                "Carotte",
+                "Parmesan"
+            ],
+            "img":"https://www.ensauce.com/wp-content/uploads/2015/10/spaghetti-bolognaise.jpg",
+            "lien":"https://www.marmiton.org/recettes/recette_spaghetti-bolognaise_19840.aspx"
+        },
+        {
+            "nom":"Crêpes",
+            "tpsPreparation":"10 min",
+            "ingredient":[
+                "Oeufs",
+                "Lait",
+                "Farine",
+                "Huile",
+                "Beurre",
+                "Rhum",
+                "Sucre"
+            ],
+            "img":"https://assets.afcdn.com/recipe/20180713/81162_w1024h768c1cx1944cy2592.jpg",
+            "lien":"https://www.marmiton.org/recettes/recette_pate-a-crepes-des-plus-raffinees_49665.aspx"
+        },
+        {
+            "nom":"Gratin dauphinois",
+            "tpsPreparation":"75 min",
+            "ingredient":[
+                "Pomme de terre",
+                "Ail",
+                "Beurre",
+                "Lait",
+                "Muscade",
+                "Crème"
+            ],
+            "img":"https://assets.afcdn.com/recipe/20201217/116563_w1024h768c1cx1116cy671.webp",
+            "lien":"https://www.marmiton.org/recettes/recette_gratin-dauphinois_13809.aspx"
+        },
+        {
+            "nom":"Tarte aux pommes",
+            "tpsPreparation":"55 min",
+            "ingredient":[
+                "Pomme",
+                "Pâte brisée",
+                "Crème",
+                "Sucre vanillé",
+                "Oeufs",
+                "Sucre"
+            ],
+            "img":"https://assets.afcdn.com/recipe/20200228/108557_w1024h1024c1cx960cy540.webp",
+            "lien":"https://www.marmiton.org/recettes/recette_tarte-aux-pommes-a-l-alsacienne_11457.aspx"
+        },
+        {
+            "nom":"Quiche lorraine",
+            "tpsPreparation":"55 min",
+            "ingredient":[
+                "Pâte brisée",
+                "Lardons",
+                "Beurre",
+                "Crème",
+                "Lait",
+                "Oeufs"
+            ],
+            "img":"https://n6g3q5q8.rocketcdn.me/wp-content/uploads/2016/10/Quiche-lorraine-facile-au-thermomix.jpg",
+            "lien":"https://www.marmiton.org/recettes/recette_quiche-lorraine_30283.aspx"
+        },
+        {
+            "nom":"Boeuf bourguignon",
+            "tpsPreparation":"70 min",
+            "ingredient":[
+                "Beurre",
+                "Lardons",
+                "Vin rouge",
+                "Oignon",
+                "Ail",
+                "Farine",
+                "Champignon",
+                "Boeuf"
+            ],
+            "img":"https://cooking-chef.sa.metacdn.com/sites/default/files/recettes/boeuf-bourguignon-recette_4x3.jpg",
+            "lien":"https://www.marmiton.org/recettes/recette_boeuf-bourguignon-rapide_19218.aspx"
+        },
+        {
+            "nom":"Salade de fruits",
+            "tpsPreparation":"15 min",
+            "ingredient":[
+                "Pomme",
+                "Banane",
+                "Orange",
+                "Clementine",
+                "Kiwi",
+                "Mangue",
+                "Canelle"
+            ],
+            "img":"https://i.notrefamille.com/1400x787/smart/2020/09/24/3389-large.jpg",
+            "lien":"https://www.marmiton.org/recettes/recette_salade-de-fruits-hivernale_86644.aspx"
+        },
+        {
+            "nom":"Cookies",
+            "tpsPreparation":"25 min",
+            "ingredient":[
+                "Beurre",
+                "Sucre",
+                "Vanille",
+                "Farine",
+                "Chocolat",
+                "Levure chimique",
+                "Oeufs"
+            ],
+            "img":"https://assets.afcdn.com/recipe/20190529/93153_w1024h576c1cx2220cy1728.jpg",
+            "lien":"https://www.marmiton.org/recettes/recette_cookies-maison_86989.aspx"
+        },
+        {
+            "nom":"Pâtes carbonara",
+            "tpsPreparation":"20 min",
+            "ingredient":[
+                "Pâtes",
+                "Crème",
+                "Lardons",
+                "Ail",
+                "Oignon",
+                "Oeufs"
+            ],
+            "img":"https://assets.afcdn.com/recipe/20211214/125831_w1024h768c1cx866cy866.jpg",
+            "lien":"https://www.marmiton.org/recettes/recette_pates-a-la-carbonara_80453.aspx"
+        },
+    ]
+
+
+
+
+}
